@@ -1,0 +1,44 @@
+# Site settings
+title: Gayathri M | Law Student
+description: >
+  Professional resume website of Gayathri M, a law student with interests in
+  Intellectual Property Rights, Civil Procedure, Criminal Law, and Contract Law.
+
+author: Gayathri M
+email: gayathrimadhavan04@gmail.com
+phone: "+91-9677470503"
+
+# URL settings (change username later)
+url: "https://your-github-username.github.io"
+baseurl: "" 
+
+# Social links
+linkedin_username: gayathrimadhavan04
+
+# Theme (GitHub Pages compatible)
+theme: minima
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Plugins (safe for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+
+# Build settings
+permalink: pretty
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
